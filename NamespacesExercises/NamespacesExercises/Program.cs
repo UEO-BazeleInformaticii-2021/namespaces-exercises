@@ -1,4 +1,6 @@
-﻿using System;
+﻿using twoD = NamespacesExercises.TwoD;
+using threeD = NamespacesExercises.ThreeD;
+using Shapes;
 
 namespace NamespacesExercises
 {
@@ -6,7 +8,9 @@ namespace NamespacesExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            global::Shapes.Rectangle rectangle = new Shapes.Rectangle();
+            twoD.Point point2D = new twoD.Point();
+            threeD.Point point3D = new threeD.Point();
         }
     }
 }
